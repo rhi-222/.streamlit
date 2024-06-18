@@ -5,19 +5,30 @@ This project performs exploratory data analysis on a vehicle dataset using Strea
 ## Project Structure
 
 - `app.py`: The main Streamlit application file.
-- `<name_of_your_dataset>.csv`: The dataset file.
+- `vehicles_us.csv`: The dataset file.
 - `notebooks/EDA.ipynb`: Jupyter notebook for initial exploratory data analysis.
 - `.streamlit/config.toml`: Configuration file for Streamlit settings.
-- `render.yaml`: Configuration file for Render deployment.
 
 ## How to Run
 
-1. Install the necessary packages:
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/your-repo-name.git
+    cd your-repo-name
+    ```
+
+2. Create and activate a virtual environment:
+    ```bash
+    python -m venv myenv
+    source myenv/bin/activate  # On Windows use `myenv\Scripts\activate`
+    ```
+
+3. Install the necessary packages:
     ```bash
     pip install -r requirements.txt
     ```
 
-2. Run the Streamlit app:
+4. Run the Streamlit app:
     ```bash
     streamlit run app.py
     ```
