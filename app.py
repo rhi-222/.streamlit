@@ -2,10 +2,12 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-# Use st.cache to cache data loading and processing steps
-@st.cache
 def load_data():
-    df = pd.read_csv('vehicles_us.csv')
+    # Use the same absolute path you used previously
+    file_path = r'/Users/rhiannonfillingham/PROJECT4/vehicles_us.csv'
+    
+    # Read the dataset
+    df = pd.read_csv(file_path)
     
     # Data cleaning steps
     df['is_4wd'] = df['is_4wd'].fillna(0).astype(bool)
