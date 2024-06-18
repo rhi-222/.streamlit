@@ -41,7 +41,7 @@ fig_price_hist_narrow.update_layout(xaxis_title='Price (USD)', yaxis_title='Coun
 st.plotly_chart(fig_price_hist_narrow)
 
 # Histogram of vehicle mileage with dynamic x-axis limit
-fig_mileage_hist_narrow = px.histogram(df, x='odometer_k', title=f'Histogram of Vehicle Mileage (Up to {upper_mileage_limit_k * 1000} miles)', labels={'odometer_k': 'Mileage (thousands of miles)'})
+fig_mileage_hist_narrow = px.histogram(df, x='odometer_k', title=f'Histogram of Vehicle Mileage', labels={'odometer_k': 'Mileage (thousands of miles)'})
 fig_mileage_hist_narrow.update_layout(xaxis_title='Mileage (thousands of miles)', yaxis_title='Count of Vehicles', xaxis=dict(range=[0, upper_mileage_limit_k]))
 st.plotly_chart(fig_mileage_hist_narrow)
 
