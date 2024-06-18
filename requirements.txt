@@ -1,1 +1,4 @@
-
+pandas
+streamlit
+plotly-express
+altair
