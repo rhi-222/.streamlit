@@ -13,7 +13,7 @@ This project performs exploratory data analysis on a vehicle dataset using Strea
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/your-repo-name.git
+    git clone https://github.com/rhi-222/.streamlit.git
     cd your-repo-name
     ```
 
@@ -35,4 +35,5 @@ This project performs exploratory data analysis on a vehicle dataset using Strea
 
 ## Live App
 
-You can access the live app [here](https://your-app-name.onrender.com).
+You can access the live app at the Network URL [here]([http://10.214.185.51:8501]). 
+Or the external URL: [here]([http://44.226.122.3:8501])
