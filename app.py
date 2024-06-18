@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 def load_data():
-    # Use the same absolute path you used previously
+    # File Path -- It won't load the dataset anymore after I tried st.cache
     file_path = r'/Users/rhiannonfillingham/PROJECT4/vehicles_us.csv'
     
     # Read the dataset
