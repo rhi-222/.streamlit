@@ -21,7 +21,6 @@ The primary goal of this project is to gain insights into the vehicle market by 
   - `paint_color`: Filled with `'unknown'`.
   - `model_year`, `cylinders`, `odometer`: Filled based on relevant groupings using median values.
 - **Dynamic Visualizations**: Users can dynamically set the upper limits for price and mileage using sliders.
-- **Caching**: Data loading and processing steps are cached for better performance.
 
 ## How to Run
 
