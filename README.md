@@ -35,5 +35,5 @@ This project performs exploratory data analysis on a vehicle dataset using Strea
 
 ## Live App
 
-You can access the live app at the Network URL [here]([http://10.214.185.51:8501]). 
-Or the external URL: [here]([http://44.226.122.3:8501])
+You can access the live app at the Network URL: ([http://10.214.185.51:8501]) 
+Or the external URL: ([http://44.226.122.3:8501])
