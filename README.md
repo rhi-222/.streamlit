@@ -14,7 +14,7 @@ This project performs exploratory data analysis on a vehicle dataset using Strea
 1. Clone the repository:
     ```bash
     git clone https://github.com/rhi-222/.streamlit.git
-    cd your-repo-name
+    cd .streamlit
     ```
 
 2. Create and activate a virtual environment:
