@@ -1,6 +1,10 @@
-# My Streamlit Project
+# Vehicle Dataset Exploratory Data Analysis
 
-This project performs exploratory data analysis on a vehicle dataset using Streamlit.
+This project performs exploratory data analysis (EDA) on a vehicle dataset using Streamlit and Jupyter Notebook. The analysis includes various visualizations to understand the distribution of vehicle prices and mileage.
+
+## Introduction
+
+The primary goal of this project is to gain insights into the vehicle market by analyzing a dataset containing information about various vehicles. The dataset includes attributes such as price, mileage (odometer readings), model year, and other relevant features. Using Streamlit, we create an interactive web application that provides users with the ability to explore the data through histograms and scatter plots.
 
 ## Project Structure
 
