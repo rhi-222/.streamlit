@@ -63,5 +63,5 @@ The scatter plot visualizes the relationship between vehicle price and mileage. 
 
 ## Live App
 
-You can access the live app at the Network URL: ([(http://10.214.28.12:8501)]) 
+You can access the live app at the Network URL: ([(http://10.214.116.19:8501)]) 
 Or the external URL: ([http://44.226.122.3:8501])
